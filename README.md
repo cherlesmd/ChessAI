@@ -35,7 +35,13 @@ Clone the repo
 git clone https://github.com/cherlesmd/ChessAI.git
 ```
 
-Run in your preffered IDE
+Run in your preffered IDE or run the following commands
+``` sh
+javac -d bin -cp "lib/guava-18.0.jar" src/com/chess/*.java
+```
+``` sh
+java -cp "bin:lib/guava-18.0.jar" com.chess.Chess  
+```
 
 ## Contributing
 
